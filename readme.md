@@ -10,3 +10,6 @@ Only clever bit this day was in the second part to check for pairs that do not o
 
 #### Day 5 - Supply Stacks
 Crate stacks so a just a simple array without need to use something fancy. Luckily I optimized first part to use array_splice instead of loop with array_pop and second part required just not reversing the spliced part.
+
+#### Day 6 - Tuning Trouble
+Instead of going for any type of array I kept all processing in first part as a string using count_chars with mode 3 that returns string of unique characters if its length was 4 it meant all 4 were unique. It was perfect for the second part with minimal alternations.
